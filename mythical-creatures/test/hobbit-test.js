@@ -15,10 +15,10 @@ describe('Hobbit', function() {
 
   it.skip('should have a name', function() {
     var bilbo = new Hobbit('Bilbo');
-    
+
     assert.equal(bilbo.name, 'Bilbo');
   });
-  
+
   it.skip('should be able to have a different name', function() {
     // create a variable hobbit whose value is an instance of the Hobbit class (pass in your name as an argument)
 
